@@ -131,6 +131,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Project Link**: [https://github.com/mjibreel/sign-language-school](https://github.com/mjibreel/sign-language-school)
 - **Issues**: [https://github.com/mjibreel/sign-language-school/issues](https://github.com/mjibreel/sign-language-school/issues)
 
+## 👨‍💻 Author
+
+**Mohamed Hassan Jibril**
+- **GitHub:** [mjibreel](https://github.com/mjibreel)
+- **LinkedIn:** [moh-jibril](https://www.linkedin.com/in/moh-jibril)
+
 ## 🎯 Future Enhancements
 
 - [ ] Support for dynamic signs (J, Z, etc.)
