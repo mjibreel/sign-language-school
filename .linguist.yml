@@ -2,7 +2,7 @@
 languages:
   Python: true
 
-# Mark all non-Python files as vendored or documentation
+# Mark ALL non-Python files as vendored (completely exclude from language stats)
 vendored:
   - "*.mp4"
   - "*.png"
@@ -15,11 +15,14 @@ vendored:
   - "*.html"
   - "*.css"
   - "*.js"
-
-# Mark documentation files
-documentation:
   - "*.md"
   - "*.txt"
-  - "*.html"
-  - "*.css"
-  - "*.js"
+  - "templates/"
+  - "static/"
+
+# Mark specific directories as vendored
+vendored_directories:
+  - "templates"
+  - "static"
+  - "venv"
+  - ".venv"
