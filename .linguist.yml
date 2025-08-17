@@ -1,11 +1,8 @@
 # Force GitHub to recognize this as a Python repository
 languages:
   Python: true
-  HTML: false
-  CSS: false
-  JavaScript: false
 
-# Mark media files as vendored (not counted in language stats)
+# Mark all non-Python files as vendored or documentation
 vendored:
   - "*.mp4"
   - "*.png"
@@ -15,11 +12,14 @@ vendored:
   - "*.pkl"
   - "*.h5"
   - "*.bin"
-
-# Mark documentation files
-documentation:
   - "*.html"
   - "*.css"
   - "*.js"
+
+# Mark documentation files
+documentation:
   - "*.md"
   - "*.txt"
+  - "*.html"
+  - "*.css"
+  - "*.js"
