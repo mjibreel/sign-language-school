@@ -27,38 +27,8 @@ https://github.com/mjibreel/sign-language-school/assets/home.mp4
 - **Frontend**: HTML, CSS, JavaScript
 - **Machine Learning**: TensorFlow Lite (via MediaPipe)
 
-## 📋 Prerequisites
 
-- **Python 3.11** or higher
-- Webcam for hand gesture recognition
-- Modern web browser
 
-## 🚀 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mjibreel/sign-language-school.git
-   cd sign-language-school
-   ```
-
-2. **Create a virtual environment (recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application**
-   ```bash
-   python app.py
-   ```
-
-5. **Open your browser**
-   Navigate to `http://127.0.0.1:5001`
 
 ## 📚 How to Use
 
@@ -107,40 +77,14 @@ The application currently supports:
 - **Numbers**: 0-9
 - **Common Phrases**: Hello, Thank you, Love, etc.
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 👨‍💻 Author
 
-## 🙏 Acknowledgments
+Mohamed Hassan Jibril
+- GitHub: [](https://github.com/mjibreel)
+- LinkedIn: [](www.linkedin.com/in/moh-jibril)
 
-- MediaPipe team for hand tracking capabilities
-- OpenCV community for computer vision tools
-- Flask community for the web framework
-- ASL community for sign language resources
+  
 
-## 📞 Contact
-
-- **Project Link**: [https://github.com/mjibreel/sign-language-school](https://github.com/mjibreel/sign-language-school)
-- **Issues**: [https://github.com/mjibreel/sign-language-school/issues](https://github.com/mjibreel/sign-language-school/issues)
-
-## 🎯 Future Enhancements
-
-- [ ] Support for dynamic signs (J, Z, etc.)
-- [ ] Video lessons and tutorials
-- [ ] Progress tracking and user accounts
-- [ ] Mobile app version
-- [ ] Multiple sign language support
-- [ ] Advanced gesture recognition
-- [ ] Social learning features
-
----
-
-⭐ **Star this repository if you find it helpful!**
