@@ -8,7 +8,11 @@ A comprehensive **Python Flask** web application for learning American Sign Lang
 
 ## 🎥 Demo Video
 
-https://github.com/mjibreel/sign-language-school/assets/home.mp4
+The demo video `home.mp4` is included in the repository. You can view it by:
+- Downloading the repository and opening `home.mp4`
+- Or viewing it directly on GitHub by clicking the file in the repository
+
+**Note:** For the best experience, download the video file to see the full demonstration of the sign language learning application.
 
 ## 🚀 Features
 
