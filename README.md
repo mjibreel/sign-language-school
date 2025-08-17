@@ -88,3 +88,22 @@ The application currently supports:
 - **GitHub:** [mjibreel](https://github.com/mjibreel)
 - **LinkedIn:** [moh-jibril](https://www.linkedin.com/in/moh-jibril)
 
+## 📞 Contact
+
+- **Project Link**: [https://github.com/mjibreel/sign-language-school](https://github.com/mjibreel/sign-language-school)
+- **Issues**: [https://github.com/mjibreel/sign-language-school/issues](https://github.com/mjibreel/sign-language-school/issues)
+
+## 🎯 Future Enhancements
+
+- [ ] Support for dynamic signs (J, Z, etc.)
+- [ ] Video lessons and tutorials
+- [ ] Progress tracking and user accounts
+- [ ] Mobile app version
+- [ ] Multiple sign language support
+- [ ] Advanced gesture recognition
+- [ ] Social learning features
+
+---
+
+⭐ **Star this repository if you find it helpful!**
+
