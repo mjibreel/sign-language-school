@@ -1,6 +1,14 @@
 # Amir Sign Language School
 
-A comprehensive web application for learning American Sign Language (ASL) through interactive lessons, real-time hand gesture recognition, and quizzes.
+A comprehensive **Python Flask** web application for learning American Sign Language (ASL) through interactive lessons, real-time hand gesture recognition, and quizzes.
+
+## 🖼️ Project Preview
+
+![Amir Sign Language School](home.png)
+
+## 🎥 Demo Video
+
+https://github.com/mjibreel/sign-language-school/assets/home.mp4
 
 ## 🚀 Features
 
@@ -13,7 +21,7 @@ A comprehensive web application for learning American Sign Language (ASL) throug
 
 ## 🛠️ Technologies Used
 
-- **Backend**: Python Flask
+- **Backend**: **Python Flask** (Main Framework)
 - **Computer Vision**: OpenCV, MediaPipe
 - **Data Processing**: Pandas, NumPy
 - **Frontend**: HTML, CSS, JavaScript
@@ -21,7 +29,7 @@ A comprehensive web application for learning American Sign Language (ASL) throug
 
 ## 📋 Prerequisites
 
-- Python 3.11 or higher
+- **Python 3.11** or higher
 - Webcam for hand gesture recognition
 - Modern web browser
 
@@ -29,8 +37,8 @@ A comprehensive web application for learning American Sign Language (ASL) throug
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/amir-sign-language-school.git
-   cd amir-sign-language-school
+   git clone https://github.com/mjibreel/sign-language-school.git
+   cd sign-language-school
    ```
 
 2. **Create a virtual environment (recommended)**
@@ -70,7 +78,7 @@ A comprehensive web application for learning American Sign Language (ASL) throug
 
 ```
 amir-sign-language-school/
-├── app.py                 # Main Flask application
+├── app.py                 # Main Flask application (Python)
 ├── templates/            # HTML templates
 │   ├── base.html         # Base template
 │   ├── index.html        # Homepage
@@ -120,8 +128,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Link**: [https://github.com/yourusername/amir-sign-language-school](https://github.com/yourusername/amir-sign-language-school)
-- **Issues**: [https://github.com/yourusername/amir-sign-language-school/issues](https://github.com/yourusername/amir-sign-language-school/issues)
+- **Project Link**: [https://github.com/mjibreel/sign-language-school](https://github.com/mjibreel/sign-language-school)
+- **Issues**: [https://github.com/mjibreel/sign-language-school/issues](https://github.com/mjibreel/sign-language-school/issues)
 
 ## 🎯 Future Enhancements
 

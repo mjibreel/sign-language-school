@@ -1,0 +1,41 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Python files
+*.py text
+*.pyw text
+
+# HTML files
+*.html text
+*.htm text
+
+# CSS files
+*.css text
+
+# JavaScript files
+*.js text
+
+# Markdown files
+*.md text
+
+# Configuration files
+*.txt text
+*.json text
+*.yml text
+*.yaml text
+
+# Binary files (should not be modified)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mp4 binary
+*.webp binary
+*.bin binary
+*.h5 binary
+*.pkl binary
+
+# Model files
+*.json text
+*.bin binary
