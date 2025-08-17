@@ -8,11 +8,9 @@ A comprehensive **Python Flask** web application for learning American Sign Lang
 
 ## 🎥 Demo Video
 
-The demo video `home.mp4` is included in the repository. You can view it by:
-- Downloading the repository and opening `home.mp4`
-- Or viewing it directly on GitHub by clicking the file in the repository
+[View Demo Video](home.mp4) (27.4 MB)
 
-**Note:** For the best experience, download the video file to see the full demonstration of the sign language learning application.
+*Click the link above to download and watch the demo video*
 
 ## 🚀 Features
 
@@ -90,21 +88,3 @@ The application currently supports:
 - **GitHub:** [mjibreel](https://github.com/mjibreel)
 - **LinkedIn:** [moh-jibril](https://www.linkedin.com/in/moh-jibril)
 
-## 📞 Contact
-
-- **Project Link**: [https://github.com/mjibreel/sign-language-school](https://github.com/mjibreel/sign-language-school)
-- **Issues**: [https://github.com/mjibreel/sign-language-school/issues](https://github.com/mjibreel/sign-language-school/issues)
-
-## 🎯 Future Enhancements
-
-- [ ] Support for dynamic signs (J, Z, etc.)
-- [ ] Video lessons and tutorials
-- [ ] Progress tracking and user accounts
-- [ ] Mobile app version
-- [ ] Multiple sign language support
-- [ ] Advanced gesture recognition
-- [ ] Social learning features
-
----
-
-⭐ **Star this repository if you find it helpful!**
