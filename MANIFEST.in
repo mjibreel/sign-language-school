@@ -1,0 +1,39 @@
+# Include Python source files
+include *.py
+include *.pyw
+
+# Include configuration files
+include *.yml
+include *.yaml
+include *.toml
+include *.ini
+include *.cfg
+
+# Include documentation
+include README.md
+include *.md
+include *.txt
+
+# Include requirements
+include requirements.txt
+
+# Include license
+include LICENSE
+
+# Include static files
+recursive-include static *
+recursive-include templates *
+
+# Exclude unnecessary files
+exclude *.pyc
+exclude *.pyo
+exclude __pycache__
+exclude *.so
+exclude *.dll
+exclude *.dylib
+exclude .DS_Store
+exclude .git*
+exclude .venv
+exclude venv
+exclude *.log
+exclude *.tmp

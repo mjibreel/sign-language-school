@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amir-sign-language-school"
+version = "1.0.0"
+description = "A comprehensive Python Flask web application for learning ASL"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Mohamed Hassan Jibril", email = "m.h.jibreel@gmail.com"}
+]
+maintainers = [
+    {name = "Mohamed Hassan Jibril", email = "m.h.jibreel@gmail.com"}
+]
+keywords = ["sign-language", "asl", "flask", "opencv", "mediapipe", "education", "computer-vision"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Video :: Display",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Scientific/Engineering :: Computer Vision"
+]
+requires-python = ">=3.11"
+dependencies = [
+    "Flask>=2.0.1",
+    "opencv-python>=4.12.0",
+    "mediapipe>=0.10.14",
+    "pandas>=2.3.1",
+    "numpy>=2.2.6",
+    "scipy>=1.16.1",
+    "matplotlib>=3.10.5",
+    "protobuf>=4.25.8"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0"
+]
+docs = [
+    "sphinx>=6.0.0",
+    "sphinx-rtd-theme>=1.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/mjibreel/sign-language-school"
+Repository = "https://github.com/mjibreel/sign-language-school"
+Documentation = "https://github.com/mjibreel/sign-language-school#readme"
+Issues = "https://github.com/mjibreel/sign-language-school/issues"
+Changelog = "https://github.com/mjibreel/sign-language-school/releases"
+
+[project.scripts]
+amir-sign-language = "app:main"
+
+[tool.setuptools.packages.find]
+include = ["*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py311']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
