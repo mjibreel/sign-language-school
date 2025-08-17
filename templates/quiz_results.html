@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Quiz Results - Sign Language Learning</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+            url("{{ url_for('static', filename='img/sign.webp') }}");
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="{{ url_for('static', filename='img/logo.wight.png') }}" alt="Logo">
+        </div>
+        <nav>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('lesson') }}">Lesson</a>
+            <a href="{{ url_for('quiz_levels') }}">Quiz</a>
+            <a href="{{ url_for('contact') }}">Contact</a>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="results-container">
+            <h1>Quiz Results</h1>
+            
+            <div class="results-card">
+                <h2>{{ level.title() }} Level</h2>
+                <div class="score-display">
+                    <div class="score-circle">
+                        <span class="score-number">{{ percentage }}%</span>
+                    </div>
+                    <p>You got {{ score }} out of {{ total }} questions correct!</p>
+                </div>
+                
+                {% if percentage >= 80 %}
+                    <div class="success-message">
+                        <h3>🎉 Excellent work!</h3>
+                        <p>You're ready for the next level!</p>
+                    </div>
+                {% elif percentage >= 60 %}
+                    <div class="good-message">
+                        <h3>👍 Good job!</h3>
+                        <p>Keep practicing to improve your score.</p>
+                    </div>
+                {% else %}
+                    <div class="practice-message">
+                        <h3>📚 Keep practicing!</h3>
+                        <p>Review the lessons and try again.</p>
+                    </div>
+                {% endif %}
+                
+                <div class="action-buttons">
+                    <a href="{{ url_for('quiz', level=level) }}" class="btn btn-secondary">Try Again</a>
+                    <a href="{{ url_for('quiz_levels') }}" class="btn btn-primary">Choose Another Level</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2024 Somali Sign Language School. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p><a href="#">Contact Us</a></p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
